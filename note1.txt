@@ -1,0 +1,71 @@
+if we want to create new element inside our html using javascript 
+we can do that by appendchild methode
+
+.................................................................................
+step-1
+......
+
+create elememnt
+let AnyName=document.CreateElement("h1")
+ 
+step-2
+.......
+
+to inser this inside html we have somthing present in our html
+for example a div which has id root 
+so we can do that to  
+
+:- root.appendChild(AnyName);
+
+and boom
+
+h1 (AnyName) inserted inside html using javascript
+
+and we can also insert something inside h1 using javascript
+by AnyName.innerhtml="....."
+
+.....................................................................................
+
+javascript script code understand by javascript engin in crome its name is V8 
+but browser dosen`t understand react code so we need react code converter
+
+.....................................................................................
+
+now adding react intu our project
+..................................
+
+frist way to add react intu our project:-
+
+CDN lins
+........
+
+A CDN, or Content Delivery Network, is a system of distributed servers that work together 
+to deliver web content, such as images, videos, stylesheets, and scripts, to users based
+ on their geographical location. CDN links refer
+ to the URLs or links that point to the resources hosted on a CDN.
+
+
+in cdn links we got 2 file
+1- react
+2- react dom
+
+react is a whole react library
+
+.......................................................................................
+
+when we make any changes inside html using react like making html tag but end of the day 
+that is a javascript object which has prperties.
+
+dont confuse html tags using react is not html tag that is javascript object then it is 
+converter to html tag
+
+root.render take object and than it is converted to htnl tag
+
+........................................................................................
+
+if we have anything inside our root and we target our root by root.render than all the 
+things are replesed which is alrady present by html 
+and that is replesed by render
+
+
+!!!!!    THAT`S ALL WE HAVE LEARN IN THIS EPISODE ALSO SEE THE CODE`S COMMENT   !!!!
